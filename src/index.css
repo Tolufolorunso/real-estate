@@ -1,0 +1,25 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap");
+
+html {
+  font-size: 100%;
+  font-family: Roboto, sans-serif;
+}
+
+.user-auth button {
+  transition: all .3s ease-out;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.user-auth button:hover {
+  color: #fff;
+}
